@@ -19,7 +19,7 @@
     import Banner2 from '../components/Banner2.vue'
     import Employ from '../components/Employ.vue'
     import Interest from '../components/Interest.vue'
-
+    console.log(111);
     export default {
         name: 'Homepage',
         components: {
