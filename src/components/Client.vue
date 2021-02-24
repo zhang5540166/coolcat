@@ -52,12 +52,16 @@
                 max-height: 220px;
 
                 .el-carousel__arrow--left {
+                    width: 40px;
+                    height: 40px;
                     left: 20px;
                     top: 40%;
                     background-color: rgba(31,45,61,.41);
                 }
 
                 .el-carousel__arrow--right {
+                    width: 40px;
+                    height: 40px;
                     right: 20px;
                     top: 40%;
                     background-color: rgba(31,45,61,.41);
@@ -66,7 +70,7 @@
 
             img {
                 /*height: 100%;*/
-                width: 100%;
+                width: 98%;
             }
         }
     }

@@ -6,7 +6,7 @@
             <div class="red-line"></div>
         </div>
         <p class="info">有关我们服务的更多信息，请联系</p>
-        <p class="info">15382389927王先生/18814884226席先生</p>
+        <p class="info">15382389927王先生</p>
     </div>
 </template>
 

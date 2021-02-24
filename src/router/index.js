@@ -17,5 +17,13 @@ export default new Router({
             name: 'Homepage',
             component: Homepage
         },
-    ]
+    ],
+    scrollBehavior (to) {
+        if (to.hash) {
+            return {
+                selector: to.hash
+            }
+        }
+        return { x: 0, y: 0 }
+    }
 })

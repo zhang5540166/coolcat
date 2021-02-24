@@ -2,10 +2,18 @@
     <div class="menu" id="menu">
         <mt-navbar v-model="selected" fixed>
             <mt-tab-item id="0" class="logo"></mt-tab-item>
-            <mt-tab-item id="1"><router-link to="/">首页</router-link></mt-tab-item>
-            <mt-tab-item id="2"><a href="#case">案例</a></mt-tab-item>
-            <mt-tab-item id="3"><a href="#partner">合作伙伴</a></mt-tab-item>
-            <mt-tab-item id="4"><a href="#join">加入</a></mt-tab-item>
+            <mt-tab-item id="1">
+                <router-link to="/">首页</router-link>
+            </mt-tab-item>
+            <mt-tab-item id="2">
+                <router-link to="/#case">案例</router-link>
+            </mt-tab-item>
+            <mt-tab-item id="3">
+                <router-link to="/#partner">合作伙伴</router-link>
+            </mt-tab-item>
+            <mt-tab-item id="4">
+                <router-link to="/#join">加入</router-link>
+            </mt-tab-item>
             <mt-tab-item id="5">
                 <router-link to="employ">
                     <i class="right-btn">

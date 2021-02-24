@@ -4,6 +4,12 @@
             <p class="line"><span class="bold">NEW MORE</span>杭州凉猫文化创意有限公司</p>
             <p class="line">Add:浙江省杭州市江干区下沙万豪国际1幢1205室 P.C: 310000</p>
             <p class="line">E-mail: 854786234@qq.com</p>
+            <p class="line">Copyright © 2016-2021 凉猫文化版权所有</p>
+            <p class="line">
+                <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2020044531号</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011802002200" target="_blank"
+                   class="police">浙公网安备33011802002200号</a>
+            </p>
         </div>
     </div>
 </template>
@@ -53,6 +59,18 @@
                 font-size: 8px;
                 font-weight: bold;
                 margin-right: 4px;
+            }
+
+            > a {
+                color: white;
+                text-decoration: none;
+                margin-right: 8px;
+
+                &.police {
+                    background: url("../assets/police.png") left no-repeat;
+                    background-size: 8px;
+                    padding-left: 12px;
+                }
             }
         }
     }
